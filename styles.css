@@ -28,6 +28,14 @@ body {
   opacity: 0;
 }
 
+.accordion__input:focus-visible + .accordion__label {
+  position: relative;
+  outline: 2px solid #007acc; /* Customize focus outline color and style */
+  outline-offset: 2px;
+  z-index: 1;
+  background-color: #f0f8ff; /* Optional: add background to highlight */
+}
+
 .accordion__label {
   padding: 1rem;
   background-color: #eee;
